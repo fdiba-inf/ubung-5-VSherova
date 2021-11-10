@@ -17,21 +17,25 @@ public class UniqueNumbers {
             numbers[index] = input.nextInt();
         }
 
-        int[] uniqueNumbers = new int[numbers.length];
+       int[] uniqueNumbers = new int[numbers.length];
         int nextUniqueIndex = 0;
+        
         for (int index = 0; index < numbers.length; index++) {
           boolean found = false;
           for (int i = 0; i < uniqueNumbers.length; i++) {
-            
-            if (numbers[index] == uniqueNumbers[i]) {
+            if(numbers[index] == uniqueNumbers[i]) {
               found = true;
               break;
+
             }
+
           }
-          if (!found) {
+
+          if(!found) {
             uniqueNumbers[nextUniqueIndex] = numbers[index];
             nextUniqueIndex++;
-          }
+            }
+
         }
 
         String uniqueNumbersAsString = Arrays.toString(uniqueNumbers);

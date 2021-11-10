@@ -3,9 +3,15 @@
     "src/exercise5/AscendingSort.java": [
       {
         "id": "893b7f06-a231-44e3-af7c-ff0603008cbc",
+<<<<<<< HEAD
         "line": 1,
         "version": 303,
         "index": 0
+=======
+        "line": 8,
+        "version": 301,
+        "index": 154
+>>>>>>> b41b32d143104f0041c66115d08c97ea44ff5b86
       }
     ]
   }
